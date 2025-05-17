@@ -28,17 +28,13 @@ const Gallery: React.FC<GalleryProps> = ({ images }) => {
               className="rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 animate-fade-in"
               style={{ animationDelay: `${index * 0.15}s` }}
             >
-              <div className="aspect-[4/3] relative">
-                {/* Display placeholder until real images are available */}
-                <div className="absolute inset-0 bg-gradient-to-br from-romance-peach to-romance-pink flex items-center justify-center">
-                  <Image size={40} className="text-white/70" />
-                </div>
+              <div className="aspect-[4/4] relative">
                 {/* This would be used for real images */}
-                {/* <img 
+                <img 
                   src={image.src} 
                   alt={image.alt}
                   className="w-full h-full object-cover"
-                /> */}
+                />
               </div>
               {image.caption && (
                 <div className="p-4 bg-white">

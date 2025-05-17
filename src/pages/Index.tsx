@@ -10,29 +10,29 @@ const Index = () => {
   // Sample data - replace with your own content
   const timelineEvents = [
     {
-      date: "July 17, 2023",
+      date: "June 24, 2023",
       title: "The Day We Met",
       description: "I'll never forget the first time our eyes met. It was the beginning of something beautiful."
     },
     {
-      date: "August 5, 2023",
+      date: "July 10, 2023",
       title: "Our First Date",
-      description: "We went to that small café by the lake. You were wearing that blue dress that made your eyes shine."
+      description: "We partied at my house. Rest is history."
     },
     {
-      date: "September 17, 2023",
+      date: "July 17, 2023",
       title: "Made It Official",
       description: "When you said yes to being my girlfriend, I knew I was the luckiest person in the world."
     },
     {
-      date: "December 25, 2023",
-      title: "Our First Christmas",
-      description: "Spending the holidays with you made everything magical. The way your face lit up when you opened my gift..."
+      date: "October 17, 2023",
+      title: "Start of Long Distance",
+      description: "Distance may separate us, but our love only grows stronger. Every call, every message reminds me of how much I cherish you."
     },
     {
-      date: "March 14, 2024",
+      date: "April 12, 2024",
       title: "Our First Trip Together",
-      description: "Exploring new places with you showed me how amazing it is to share adventures together."
+      description: "Went to the water park and had the time of our lives. Every moment spent with you is a treasure."
     },
     {
       date: "May 17, 2025",
@@ -42,12 +42,12 @@ const Index = () => {
   ];
 
   const galleryImages = [
-    { src: "/placeholder.svg", alt: "Us at the beach", caption: "Summer vacation" },
-    { src: "/placeholder.svg", alt: "Dinner date", caption: "Our anniversary dinner" },
-    { src: "/placeholder.svg", alt: "Hiking adventure", caption: "Mountain view" },
-    { src: "/placeholder.svg", alt: "Movie night", caption: "Cozy evening" },
-    { src: "/placeholder.svg", alt: "Birthday celebration", caption: "Your birthday" },
-    { src: "/placeholder.svg", alt: "First road trip", caption: "On the road" }
+    { src: "/Img1.jpeg", alt: "first-picture", caption: "First picture together" },
+    { src: "/Img2.jpeg", alt: "Dinner date", caption: "A-304 Belapur" },
+    { src: "/Img3.jpeg", alt: "Hiking adventure", caption: "Blue Tokai" },
+    { src: "/Img4.jpeg", alt: "Movie night", caption: "Imagica" },
+    { src: "/Img5.jpeg", alt: "Birthday celebration", caption: "Mahalakshmi Nagar" },
+    { src: "/Img6.jpeg", alt: "First road trip", caption: "Dream Residency" }
   ];
 
   const loveLetterMessage = 
@@ -62,7 +62,7 @@ This journey we're on together is the most beautiful adventure, and I'm so grate
 I love you more with each passing day, and I can't wait to see what the future holds for us.
 
 Forever yours,
-[Your Name]`;
+Satyam`;
 
   const loveReasons = [
     "The way you smile lights up my entire world",
@@ -77,7 +77,7 @@ Forever yours,
 
   return (
     <div className="min-h-screen">
-      <Hero name="[Her Name]" months={22} />
+      <Hero name="Simran" months={22} />
       
       <Timeline events={timelineEvents} />
       
